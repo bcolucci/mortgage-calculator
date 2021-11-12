@@ -1,5 +1,6 @@
-bin/
+.DS_Store
 .parcel-cache/
+bin/
 node_modules/
 dist/
 coverage.out

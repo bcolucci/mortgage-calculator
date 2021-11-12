@@ -1,7 +1,7 @@
 
 # Mortgage calculator
 
-![screenshot](./screenshot-ui.png)
+![screenshot](./screen.png)
 
 ## How does it work?
 
@@ -43,7 +43,11 @@ Requirements:
 * go `1.17`
 * node `16`
 
-    git clone ... && cd mortgage-calculator && make
+```
+git clone git@github.com:bcolucci/mortgage-calculator \
+    && cd mortgage-calculator/ \
+    && make
+```
 
 ## How to test (core)
 
