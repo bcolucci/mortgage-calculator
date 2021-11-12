@@ -45,6 +45,15 @@ Requirements:
 
     git clone ... && cd mortgage-calculator && make
 
+## How to test (core)
+
+```
+> make test
+go test ./pkg/... -race -covermode=atomic -coverprofile=coverage.out
+ok      github.com/bcolucci/mortgage-calculator/pkg/core        0.733s  coverage: 100.0% of statements
+ok      github.com/bcolucci/mortgage-calculator/pkg/utils       0.318s  coverage: 100.0% of statements
+```
+
 ## Cleanup Docker
 
     docker image rm mortgage
